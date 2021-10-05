@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -359,3 +359,7 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+a{
+    text-decoration: none;
+    color: #312A1B;
+  }

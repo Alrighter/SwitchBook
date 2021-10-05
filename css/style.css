@@ -59,6 +59,96 @@ html{
 body{
   background: #E6E4E7;
 }
-.header_shade{
+.header_shade, .footer_shade{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 170px;
   
+  left: 0px;
+  z-index: -1;
+}
+.header_shade{
+  top: 0px;
+    
+  background: linear-gradient(180deg, rgba(189, 166, 152, 0.5) 0%, rgba(189, 166, 152, 0) 100%);
+}
+.footer_shade{
+  bottom: 0px;
+    
+  background: linear-gradient(0deg, rgba(189, 166, 152, 0.5) 0%, rgba(189, 166, 152, 0) 100%);
+  
+}
+.header_logo{
+  position: absolute;
+  width: 100px;
+  height: 121px;
+  left: calc(50% - 100px/2 - 537px);
+  top: 34px;
+}
+.logo_text{
+  position: absolute;
+  width: 362px;
+  height: 47px;
+  left: 130px;
+  top: 34px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  
+  color: #312A1B;
+}
+.header_button_home, .header_button_about, .header_button_contact, .header_buttom_login{
+  position: absolute;
+  width: 90px;
+  height: 29px;
+  top: 80px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #312A1B;
+}
+.header_button_home{
+  left: calc(50% - 79px/2 + 89.5px);
+}
+.header_button_about{
+  left: calc(50% - 90px/2 + 230px);
+}
+.header_button_contact{
+  left: calc(50% - 120px/2 + 391px);
+}
+.header_buttom_login{
+  left: calc(50% - 80px/2 + 547px);
+}
+.footer_text, .footer_email_text, .footer_email_icon{
+  position: absolute;
+  width: 279px;
+  height: 19px;
+  left: calc(50% - 279px/2 - 447.5px);
+  bottom: 40px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #4C4333;
+}
+.footer_text{
+  left: calc(50% - 279px/2 - 447.5px);
+}
+.footer_email_text{
+  left: calc(50% - 278px/2 + 451px);
+}
+.footer_email_icon{
+  left: calc(50% - 278px/2 + 430px);
 }

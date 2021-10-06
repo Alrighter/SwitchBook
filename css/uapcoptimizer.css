@@ -16,3 +16,10 @@
 .contact_extra_text{
     top: 400px;
 }
+.register_page{
+    position: absolute;
+    width: 564px;
+    height: 750px;
+    left: calc(50% - 284px);
+    top: 250px;
+}

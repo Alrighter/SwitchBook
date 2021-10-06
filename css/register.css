@@ -1,8 +1,8 @@
 .main{
     position: absolute;
     width: 564px;
-    height: 660px;
-    left: 480px;
+    height: 700px;
+    left: calc(50% - 284px);
     top: 250px;
 }
 .login_text, .register_text{
@@ -30,7 +30,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 41px;
     
     color: #4C4333;
@@ -39,13 +39,13 @@
     top: 75px;
 }
 .email_text{
-    top: 200px;
+    top: 190px;
 }
 .password_text{
-    top: 325px;
+    top: 315px;
 }
 .repeat_password_text{
-    top: 450px;
+    top: 440px;
 }
 .email_field, .password_field, .repeat_password_field, .name_field{
     position: absolute;
@@ -66,16 +66,29 @@
     cursor: text;
 }
 .name_field{
-    top: 130px;
+    top: 120px;
 }
 .email_field{
-    top: 255px;
+    top: 235px;
 }
 .password_field{
-    top: 380px;
+    top: 360px;
 }
 .repeat_password_field{
-    top: 505px;
+    top: 485px;
+}
+.terms_text{
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 41px;
+    
+    color: #4C4333;
 }
 .register_button{
     position: absolute;
@@ -96,6 +109,7 @@
 
     color: #4C4333;
 }
+
 .footer_shade{
-    top: 930px;
+    top: 960px;
 }

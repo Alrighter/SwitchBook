@@ -2,7 +2,7 @@
     position: absolute;
     width: 568px;
     height: 407px;
-    left: 480px;
+    left: calc(50% - 284px);
     top: 250px;
 }
 .login_text, .register_text{

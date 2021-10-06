@@ -2,7 +2,7 @@
     position: absolute;
     width: 1188px;
     height: 566px;
-    left: 133px;
+    left: calc(50% - 100px/2 - 537px);
     top: 250px;
 }
 .home_text_title{

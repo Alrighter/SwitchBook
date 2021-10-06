@@ -2,7 +2,7 @@
     position: absolute;
     width: 1174px;
     height: 571px;
-    left: 133px;
+    left: calc(50% - 100px/2 - 537px);
     top: 250px;
 }
 .contact_title{
@@ -36,7 +36,7 @@
 .contact_extra_text{
     position: absolute;
     width: 753px;
-    height: 238px;
+    height: 100px;
     left: calc(50% - 753px/2 + 250.5px);
     top: 330px;
 }

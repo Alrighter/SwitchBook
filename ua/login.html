@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwitchBook - Login</title>
+    <title>SwitchBook - Вхід</title>
     <link rel="shortcut icon" href="../img/Logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -21,7 +21,7 @@
                         <h1 class="logo_text">SWITCHBOOK</h1>
                     </a>
                 </div>
-                <a href="../en/login.html" class="language_button"><img src="../img/en.png" alt="Українська" class="language_button"></a>
+                
             <nav class="header_nav">
                 <ul class="header_list">
                     <li class="header_button_home">
@@ -47,14 +47,15 @@
         <p class="login_text">ВХІД</p>
         <a href="./register.html" class="register_text"><u>РЕЄСТРАЦІЯ</u></a>
         <p class="email_text">Електронна пошта:</p>
-        <input type="email" name="email" id="email" class="email_field">
+        <input type="email" name="email" id="email" class="email_field" required>
         <p class="password_text">Пароль:</p>
-        <input type="password" name="password" class="password_field">
-        <input type="button" value="ВХІД" class="login_button">
+        <input type="password" name="password" class="password_field" required>
+        <input type="submit" value="ВХІД" class="login_button">
     </main>
     
     <footer>
         <div class="footer_shade">
+            <a href="../en/login.html" class="language_button"><img src="../img/en.png" alt="Українська" class="language_button"></a>
             <p class="footer_text">Розробник - Роман Жихор</p>
             <div class="footer_email">
                 <a href="./email_redirect.html" class="footer_email_icon" target=»_blank»><img src="../img/email_icon.svg" alt="Email icon"></a>

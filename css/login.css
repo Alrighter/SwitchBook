@@ -1,0 +1,89 @@
+.main{
+    position: absolute;
+    width: 568px;
+    height: 407px;
+    left: 480px;
+    top: 240px;
+}
+.login_text, .register_text{
+    position: absolute;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 59px;
+    
+    color: #4C4333;
+}
+.login_text{
+    font-size: 48px;
+}
+.register_text{
+    right: 10px;
+
+    font-size: 36px;
+}
+.email_text, .password_text{
+    position: absolute;
+    left: 10px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    
+    color: #4C4333;
+}
+.email_text{
+    top: 75px;
+}
+.password_text{
+    top: 200px;
+}
+.email_field, .password_field{
+    position: absolute;
+    width: 564px;
+    height: 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    
+    color: #55472e;
+
+    background: #F4F4F4;
+    border-radius: 14px;
+    border: none;
+    cursor: text;
+}
+.email_field{
+    top: 130px;
+}
+.password_field{
+    top: 255px;
+}
+.login_button{
+    position: absolute;
+    width: 316px;
+    height: 68px;
+    left: calc(50% - 316px/2);
+    bottom: 0px;
+
+    background: #F4F4F4;
+    border-radius: 14px;
+    border: none;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #4C4333;
+}
+.footer_shade{
+    top: 650px;
+}

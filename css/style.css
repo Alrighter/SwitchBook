@@ -76,9 +76,7 @@ body{
 }
 .footer_shade{
   bottom: 0px;
-    
   background: linear-gradient(0deg, rgba(189, 166, 152, 0.5) 0%, rgba(189, 166, 152, 0) 100%);
-  
 }
 .header_logo{
   position: absolute;
@@ -151,4 +149,8 @@ body{
 }
 .footer_email_icon{
   left: calc(50% - 278px/2 + 430px);
+}
+body {
+  position: relative;
+  padding-bottom: 170px;
 }

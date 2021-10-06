@@ -1,0 +1,74 @@
+.main{
+    position: absolute;
+    width: 1174px;
+    height: 894px;
+    left: 133px;
+    top: 300px;
+}
+.about_me_filling, .idea_for_million_filling{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #4C4333;
+}
+.about_me_title, .idea_for_million_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #4C4333;
+}
+.about_me_title{
+    position: absolute;
+    width: 265px;
+    height: 47px;
+    left: calc(50% - 265px/2 - 454.5px);
+}
+.about_me_filling{
+    position: absolute;
+    width: 772px;
+    height: 238px;
+    left: calc(50% - 772px/2 - 201px);
+    top: 75px;
+}
+.idea_for_million_title{
+    position: absolute;
+    width: 511px;
+    height: 47px;
+    left: calc(50% - 511px/2 + 90.5px);
+    top: 370px;
+}
+.idea_for_million_filling{
+    position: absolute;
+    width: 772px;
+    height: 443px;
+    left: calc(50% - 772px/2 + 221px);
+    top: 425px;
+}
+.arrow1{
+    position: absolute;
+    width: 315px;
+    height: 280px;
+    left: 830px;
+    top: 110px;
+
+    mix-blend-mode: luminosity;
+}
+.arrow2{
+    position: absolute;
+    width: 315px;
+    height: 256px;
+    left: 70px;
+    top: 450px;
+
+    mix-blend-mode: luminosity;
+    transform: rotate(180deg);
+}
+.footer_shade{
+    top: 1200px;
+}

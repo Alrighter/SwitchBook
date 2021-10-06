@@ -34,3 +34,12 @@
 
     color: #4C4333;
 }
+.books_on_homepage{
+    position: absolute;
+    width: 511px;
+    height: 548px;
+    left: 710px;
+}
+.footer_shade{
+    top: 900px;
+}

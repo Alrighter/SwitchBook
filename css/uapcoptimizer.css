@@ -1,0 +1,18 @@
+.header_button_home{
+    left: calc(50% - 79px/2 + 49.5px);
+}
+.header_button_about{
+    left: calc(50% - 90px/2 + 210px);
+}
+.header_button_contact{
+    left: calc(50% - 120px/2 + 430px);
+}
+.header_buttom_login{
+    left: calc(50% - 80px/2 + 562px);
+}
+.books_on_homepage{
+    top: 5px;
+}
+.contact_extra_text{
+    top: 400px;
+}

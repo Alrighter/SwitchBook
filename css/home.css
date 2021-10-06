@@ -3,13 +3,12 @@
     width: 1188px;
     height: 566px;
     left: 133px;
-    top: 299px;
+    top: 250px;
 }
 .home_text_title{
     position: absolute;
-    width: 584px;
+    width: 700px;
     height: 121px;
-    left: calc(50% - 584px/2 - 295px);
 
     font-family: Montserrat;
     font-style: normal;
@@ -23,7 +22,6 @@
     position: absolute;
     width: 630px;
     height: 420px;
-    left: calc(50% - 630px/2 - 272px);
     top: 130px;
 
     font-family: Montserrat;
@@ -36,10 +34,10 @@
 }
 .books_on_homepage{
     position: absolute;
-    width: 511px;
-    height: 548px;
-    left: 710px;
+    top: -20px;
+    width: 460px;
+    right: 25px;
 }
 .footer_shade{
-    top: 900px;
+    top: 800px;
 }

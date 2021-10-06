@@ -1,0 +1,36 @@
+.home{
+    position: absolute;
+    width: 1188px;
+    height: 566px;
+    left: 133px;
+    top: 299px;
+}
+.home_text_title{
+    position: absolute;
+    width: 584px;
+    height: 121px;
+    left: calc(50% - 584px/2 - 295px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #4C4333;
+}
+.home_text_filling{
+    position: absolute;
+    width: 630px;
+    height: 420px;
+    left: calc(50% - 630px/2 - 272px);
+    top: 130px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #4C4333;
+}

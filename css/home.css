@@ -41,3 +41,63 @@
 .footer_shade{
     top: 800px;
 }
+@media only screen and (max-width: 1160px){
+    .home{
+        position: absolute;
+        width: 960px;
+        height: 566px;
+        left: calc(50% - 100px/2 - 437px);
+        top: 250px;
+    }
+    .books_on_homepage{
+        position: absolute;
+        top: 80px;
+        width: 300px;
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 996px){
+    .home{
+        position: absolute;
+        width: 600px;
+        height: 566px;
+        left: calc(50% - 100px/2 - 237px);
+        top: 250px;
+    }
+    .books_on_homepage{
+        position: absolute;
+        width: 0px;
+        left: 0px;
+    }
+    .home_text_filling{
+        position: absolute;
+        width: 580px;
+        height: 420px;
+        top: 100px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+    
+        color: #4C4333;
+    }
+    .home_text_title{
+        position: absolute;
+        width: 600px;
+        height: 121px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 39px;
+    
+        color: #4C4333;
+    }
+    .footer_shade{
+        top: 700px;
+    }
+}
+

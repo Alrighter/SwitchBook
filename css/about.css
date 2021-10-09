@@ -72,3 +72,52 @@
 .footer_shade{
     top: 1200px;
 }
+@media only screen and (max-width: 1160px){
+    .arrow1, .arrow2{
+        width: 0px;
+        left: 0px;
+    }
+    .main{
+        width: 100%;
+        left: calc(50% - 350px);
+    }
+    .idea_for_million_title, .idea_for_million_filling{
+        left: 0px;
+    }
+    .about_me_filling, .about_me_title{
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 996px){
+    .arrow1, .arrow2{
+        width: 0px;
+        left: 0px;
+    }
+    .main{
+        width: 600px;
+        left: calc(50% - 300px);
+    }
+    .idea_for_million_title, .idea_for_million_filling{
+        left: 0px;
+        width: 600px;
+    }
+    .about_me_filling, .about_me_title{
+        width: 600px;
+        left: 0px;
+    }
+    .about_me_filling{
+        top: 75px;
+    }
+    .idea_for_million_title{
+        top: 430px;
+    }
+    .idea_for_million_filling{
+        top: 500px;
+    }
+    .footer_shade{
+        top: 1250px;
+    }
+    @media only screen and (max-width: 600px){
+  
+    }
+}

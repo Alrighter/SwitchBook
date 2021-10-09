@@ -30,16 +30,33 @@
     position: absolute;
     width: 772px;
     height: 238px;
-    left: calc(50% - 772px/2 - 201px);
+    left: 0px;
     top: 75px;
 }
 .contact_extra_text{
     position: absolute;
     width: 753px;
     height: 100px;
-    left: calc(50% - 753px/2 + 250.5px);
+    left: calc(50% - 753px/2 + 200px);
     top: 330px;
 }
 .footer_shade{
     top: 750px;
+}
+@media only screen and (max-width: 1160px){
+    .main{
+        left: calc(50% - 310px);
+        width: 650px;
+    }
+    .contact_title{
+        width: 650px;
+    }
+    .contact_text{
+        width: 650px;
+    }
+    .contact_extra_text{
+        top: 360px;
+        left: 0px;
+        width: 650px;
+    }
 }

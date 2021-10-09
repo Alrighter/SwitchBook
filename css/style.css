@@ -125,6 +125,8 @@ body{
 .header_buttom_login{
   left: calc(50% - 80px/2 + 547px);
 }
+
+
 .footer_text, .footer_email_text, .footer_email_icon{
   position: absolute;
   width: 279px;
@@ -164,6 +166,80 @@ body {
 img.language_button{
   border: 2px solid #4C4333;
 }
-@media screen {
+@media only screen and (max-width: 1160px){
+  .header_shade{
+    top: 0px;
+    background: linear-gradient(180deg, rgba(189, 166, 152, 0.5) 0%, rgba(189, 166, 152, 0) 100%);
+  }
+  .footer_shade{
+    bottom: 0px;
+    background: linear-gradient(0deg, rgba(189, 166, 152, 0.5) 0%, rgba(189, 166, 152, 0) 100%);
+  }
+  .header_logo{
+    position: absolute;
+    width: 100px;
+    height: 121px;
+    left: calc(50% - 100px/2 - 437px);
+    top: 34px;
+  }
+  .logo_text{
+    font-size: 0px;
+  }
+  .header_button_home{
+    left: calc(50% - 50px);
+  }
+  .header_button_about{
+    left: calc(50% + 90px);
+  }
+  .header_button_contact{
+    left: calc(50% + 230px);
+  }
+  .header_buttom_login{
+    left: calc(50% + 400px);
+  }
+  .footer_text{
+    left: calc(50% - 279px/2 - 200px);
+  }
+  .footer_email_text{
+    left: calc(50% - 278px/2 + 260px);
+  }
+  .footer_email_icon{
+    left: calc(50% - 278px/2 + 240px);
+  }
+}
+@media only screen and (max-width: 996px){
+  .header_logo{
+    position: absolute;
+    width: 100px;
+    height: 121px;
+    left: calc(50% - 100px/2 - 237px);
+    top: 34px;
+  }
+  .logo_text{
+    font-size: 0px;
+  }
+  .header_button_home{
+    left: calc(50% - 150px);
+  }
+  .header_button_about{
+    left: calc(50% - 50px);
+  }
+  .header_button_contact{
+    left: calc(50% + 60px);
+  }
+  .header_buttom_login{
+    left: calc(50% + 200px);
+  }
+  .footer_text{
+    left: calc(50% - 279px/2 - 160px);
+  }
+  .footer_email_text{
+    left: calc(50% - 278px/2 + 190px);
+  }
+  .footer_email_icon{
+    left: calc(50% - 278px/2 + 170px);
+  }
+}
+@media only screen and (max-width: 600px){
   
 }

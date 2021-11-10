@@ -11,55 +11,91 @@
     <link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header_wrapper">
-                <div class="header_logo">
-                    <a href="./home.html" class="header_logo_link">
-                        <img src="../img/Logo.svg" alt="logo">
-                        <h1 class="logo_text">SWITCHBOOK</h1>
-                    </a>
+    <div class="header_shade"></div>
+    <div class="content">
+        <header>
+            <div class="wrapper">
+                <div class="header_wrapper">                    
+                    <div class="header_logo">
+                        <a href="./home.html" class="header_logo_link">
+                            <img src="../img/Logo.svg" alt="logo" class="logo_img">
+                            <h1 class="logo_text">SWITCHBOOK</h1>
+                        </a>
                 </div>
-            <nav class="header_nav">
-                <ul class="header_list">
-                    <li class="header_button_home">
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_button">
+                            <a href="./home.html">HOME</a>
+                        </li>
+                        <li class="header_button">
+                            <a href="./about.html">ABOUT</a>
+                        </li>                            
+                        <li class="header_button">
+                            <a href="./contact.html">CONTACTS</a>
+                        </li>
+                        <li class="header_button">
+                            <a href="./login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </header>
+
+        <main>
+            <div class="text">
+                <h3 class="home_text_title">
+                    CHOOSE A NEW BOOK FOR AN OLD ONE
+                </h3>
+                <p class="home_text_filling">
+                    The first printed book appeared in Lviv in 1574. Web-site unites fans of printed literature, so you can exchange the book you have read for the book you would like to read. The website is completely free and supported by donations from grateful users.
+                </p>
+            </div>
+            
+            <img src="../img/books_on_homepage.png" alt="Some books here" class="books_on_homepage">
+        </main>
+    
+        <footer>
+            <nav class="footer_nav">
+                <ul class="footer_list_menu">
+                    <li class="footer_button">
                         <a href="./home.html">HOME</a>
                     </li>
-                    <li class="header_button_about">
+                    <li class="footer_button">
                         <a href="./about.html">ABOUT</a>
+                    </li>                            
+                    <li class="footer_button">
+                        <a href="./contact.html">CONTACTS</a>
                     </li>
-                    <li class="header_button_contact">
-                        <a href="./contact.html">CONTACT</a>
-                    </li>
-                    <li class="header_buttom_login">
+                    <li class="footer_button">
                         <a href="./login.html">LOGIN</a>
                     </li>
                 </ul>
             </nav>
-            </div>
-        </div>
-        <div class="header_shade"></div>
-    </header>
-
-    <main class="home">
-        <h3 class="home_text_title">
-            CHOOSE A NEW BOOK <br/>FOR AN OLD ONE
-        </h3>
-        <p class="home_text_filling">
-            The first printed book appeared in Lviv in 1574. Web-site unites fans of printed literature, so you can exchange the book you have read for the book you would like to read. The website is completely free and supported by donations from grateful users.
-        </p>
-        <img src="../img/books_on_homepage.png" alt="Some books here" class="books_on_homepage">
-    </main>
+            
+            
     
-    <footer>
-        <div class="footer_shade">
-            <a href="../ua/home.html" class="language_button"><img src="../img/ua.png" alt="Українська" class="language_button"></a>
-            <p class="footer_text">Created by Roman Zhykhor</p>
-            <div class="footer_email">
-                <a href="./email_redirect.html" class="footer_email_icon" target=»_blank»><img src="../img/email_icon.svg" alt="Email icon"></a>
-                <p class="footer_email_text">romanzhykhor@gmail.com</p>
-            </div>
-        </div> 
-    </footer>
+            <ul class="footer_list">
+                <li  class="footer_item">
+                    <img src="../img/burger_menu.svg" alt="menu" class="burger_menu">
+                </li>
+                <li class="footer_item">
+                    <p class="footer_text">Created by Roman Zhykhor</p>
+                </li>
+                <li class="footer_item">
+                    <a href="../ua/home.html" class="language_button"><img src="../img/ua.png" alt="Українська" class="language_button"></a>
+                </li>
+                <li class="footer_item">
+                    <a href="./email_redirect.html" class="footer_email_icon" target=»_blank»><img src="../img/email_icon.svg" alt="Email icon"></a>
+                    <p class="footer_email_text">romanzhykhor@gmail.com</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    
+    <div class="footer_shade"></div>
+    <div class="shade_to_close_menu"></div>
+    <script src="../scripts/burger_menu.js"></script>
+        
 </body>
 </html>

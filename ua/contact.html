@@ -9,39 +9,38 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/uapcoptimizer.css">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header_wrapper">
-                <div class="header_logo">
-                    <a href="./home.html" class="header_logo_link">
-                        <img src="../img/Logo.svg" alt="logo">
-                        <h1 class="logo_text">SWITCHBOOK</h1>
-                    </a>
+    <div class="header_shade"></div>
+    <div class="content">
+        <header>
+            <div class="wrapper">
+                <div class="header_wrapper">                    
+                    <div class="header_logo">
+                        <a href="./home.html" class="header_logo_link">
+                            <img src="../img/Logo.svg" alt="logo" class="logo_img">
+                            <h1 class="logo_text">SWITCHBOOK</h1>
+                        </a>
                 </div>
-                
-            <nav class="header_nav">
-                <ul class="header_list">
-                    <li class="header_button_home">
-                        <a href="./home.html">ГОЛОВНА</a>
-                    </li>
-                    <li class="header_button_about">
-                        <a href="./about.html">ІНФОРМАЦІЯ</a>
-                    </li>
-                    <li class="header_button_contact">
-                        <a href="./contact.html">КОНТАКТ</a>
-                    </li>
-                    <li class="header_buttom_login">
-                        <a href="./login.html">ВХІД</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_button">
+                            <a href="./home.html">ГОЛОВНА</a>
+                        </li>
+                        <li class="header_button">
+                            <a href="./about.html">ІНФОРМАЦІЯ</a>
+                        </li>                            
+                        <li class="header_button">
+                            <a href="./contact.html">КОНТАКТИ</a>
+                        </li>
+                        <li class="header_button">
+                            <a href="./login.html">ВХІД</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <div class="header_shade"></div>
-    </header>
+        </header>
 
     <main class="main">
         <h3 class="contact_title">Хо-хо, контакти?</h3>
@@ -55,14 +54,45 @@
     </main>
 
     <footer>
-        <div class="footer_shade">
-            <a href="../en/contact.html" class="language_button"><img src="../img/en.png" alt="Українська" class="language_button"></a>
-            <p class="footer_text">Розробник - Роман Жихор</p>
-            <div class="footer_email">
+        <nav class="footer_nav">
+            <ul class="footer_list_menu">
+                <li class="footer_button">
+                    <a href="./home.html">ГОЛОВНА</a>
+                </li>
+                <li class="footer_button">
+                    <a href="./about.html">ІНФОРМАЦІЯ</a>
+                </li>                            
+                <li class="footer_button">
+                    <a href="./contact.html">КОНТАКТИ</a>
+                </li>
+                <li class="footer_button">
+                    <a href="./login.html">ВХІД</a>
+                </li>
+            </ul>
+        </nav>
+        
+        
+
+        <ul class="footer_list">
+            <li  class="footer_item">
+                <img src="../img/burger_menu.svg" alt="menu" class="burger_menu">
+            </li>
+            <li class="footer_item">
+                <p class="footer_text">Created by Roman Zhykhor</p>
+            </li>
+            <li class="footer_item">
+                <a href="../en/contact.html" class="language_button"><img src="../img/en.png" alt="Українська" class="language_button"></a>
+            </li>
+            <li class="footer_item">
                 <a href="./email_redirect.html" class="footer_email_icon" target=»_blank»><img src="../img/email_icon.svg" alt="Email icon"></a>
                 <p class="footer_email_text">romanzhykhor@gmail.com</p>
-            </div>
-        </div> 
+            </li>
+        </ul>
     </footer>
+</div>
+
+<div class="footer_shade"></div>
+<div class="shade_to_close_menu"></div>
+<script src="../scripts/burger_menu.js"></script>
 </body>
 </html>

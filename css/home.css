@@ -1,103 +1,61 @@
-.home{
-    position: absolute;
-    width: 1188px;
-    height: 566px;
-    left: calc(50% - 100px/2 - 537px);
-    top: 250px;
+.text{
+    position: relative;
+    word-wrap: break-word;
+    width: 50%;
 }
 .home_text_title{
-    position: absolute;
-    width: 700px;
-    height: 121px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
+    
 
     color: #4C4333;
 }
 .home_text_filling{
-    position: absolute;
-    width: 630px;
-    height: 420px;
-    top: 130px;
+    margin-top: 15px;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 34px;
-    line-height: 41px;
+    line-height: 40px;
 
     color: #4C4333;
 }
 .books_on_homepage{
-    position: absolute;
-    top: -20px;
-    width: 460px;
-    right: 25px;
-}
-.footer_shade{
-    top: 800px;
-}
-@media only screen and (max-width: 1160px){
-    .home{
-        position: absolute;
-        width: 960px;
-        height: 566px;
-        left: calc(50% - 100px/2 - 437px);
-        top: 250px;
+    height: 50%;
+    margin-top: -40px;
+    margin-right: -20px;
+    position: static;
+    align-items: flex-end;
+    justify-content:right;
+}   
+@media only screen and (max-width: 1248px){
+    .text{
+        margin-top: -6%;
+        width: 100%;
     }
     .books_on_homepage{
-        position: absolute;
-        top: 80px;
-        width: 300px;
-        right: 0px;
-    }
-}
-@media only screen and (max-width: 996px){
-    .home{
-        position: absolute;
-        width: 600px;
-        height: 566px;
-        left: calc(50% - 100px/2 - 237px);
-        top: 250px;
-    }
-    .books_on_homepage{
-        position: absolute;
+        height: 0%;
         width: 0px;
-        left: 0px;
+    }  
+}
+@media only screen and (max-width: 600px){
+    .home_text_title{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
     }
     .home_text_filling{
-        position: absolute;
-        width: 580px;
-        height: 420px;
-        top: 100px;
-    
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 35px;
-    
-        color: #4C4333;
+        font-size: 24px;
+        line-height: 26px;
     }
-    .home_text_title{
-        position: absolute;
-        width: 600px;
-        height: 121px;
-    
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 39px;
-    
-        color: #4C4333;
-    }
-    .footer_shade{
-        top: 700px;
-    }
+    .books_on_homepage{
+        height: 80%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+    }  
 }
-

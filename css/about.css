@@ -1,123 +1,78 @@
-.main{
-    position: absolute;
-    width: 1174px;
-    height: 894px;
-    left: calc(50% - 100px/2 - 537px);
-    top: 250px;
-}
-.about_me_filling, .idea_for_million_filling{
+.about_me_filling, .idea_for_million_filling, .about_me_title, .idea_for_million_title{
     font-family: Montserrat;
     font-style: normal;
+    color: #4C4333;
+}
+.about_me_filling, .idea_for_million_filling{
     font-weight: 500;
     font-size: 34px;
     line-height: 41px;
 
-    color: #4C4333;
 }
 .about_me_title, .idea_for_million_title{
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
-
-    color: #4C4333;
 }
-.about_me_title{
-    position: absolute;
-    width: 265px;
-    height: 47px;
-    left: calc(50% - 265px/2 - 454.5px);
+.first_row, .second_row{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
-.about_me_filling{
-    position: absolute;
-    width: 772px;
-    height: 238px;
-    left: calc(50% - 772px/2 - 201px);
-    top: 75px;
+.text1, .text2{
+    width: 60%;
+    word-wrap: break-word;
 }
-.idea_for_million_title{
-    position: absolute;
-    width: 700px;
-    height: 47px;
-    left: calc(50% - 511px/2 + 90.5px);
-    top: 385px;
-}
-.idea_for_million_filling{
-    position: absolute;
-    width: 772px;
-    height: 443px;
-    left: calc(50% - 772px/2 + 221px);
-    top: 460px;
-}
-.arrow1{
-    position: absolute;
-    width: 315px;
-    height: 280px;
-    left: 830px;
-    top: 110px;
-
+.arrow1, .arrow2{
     mix-blend-mode: luminosity;
+    max-width: 100%;
+    max-height: 300px;
+    margin: 5%;
 }
 .arrow2{
-    position: absolute;
-    width: 315px;
-    height: 256px;
-    left: 70px;
-    top: 450px;
-
-    mix-blend-mode: luminosity;
     transform: rotate(180deg);
 }
-.footer_shade{
-    top: 1200px;
-}
-@media only screen and (max-width: 1160px){
-    .arrow1, .arrow2{
-        width: 0px;
-        left: 0px;
-    }
-    .main{
+@media only screen and (max-width: 1100px){
+    .text1, .text2{
         width: 100%;
-        left: calc(50% - 350px);
+        word-wrap: break-word;
     }
-    .idea_for_million_title, .idea_for_million_filling{
-        left: 0px;
-    }
-    .about_me_filling, .about_me_title{
-        left: 0px;
-    }
-}
-@media only screen and (max-width: 996px){
     .arrow1, .arrow2{
-        width: 0px;
-        left: 0px;
+        height: 40%
     }
-    .main{
-        width: 600px;
-        left: calc(50% - 300px);
+    .arrow1{
+        margin-left: 40%;
     }
-    .idea_for_million_title, .idea_for_million_filling{
-        left: 0px;
-        width: 600px;
+    .arrow2{
+        width: 223px;
+        height: 274px;
+        margin-top: -250px;
+        margin-left: 20%;
     }
-    .about_me_filling, .about_me_title{
-        width: 600px;
-        left: 0px;
+    
+}
+@media only screen and (max-width: 600px){
+    .about_me_title, .idea_for_million_title{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+        margin-top: -25px;
     }
-    .about_me_filling{
-        top: 75px;
+    .about_me_filling, .idea_for_million_filling{
+        font-size: 24px;
+        line-height: 26px;
     }
     .idea_for_million_title{
-        top: 430px;
+        margin-top: 0px;
     }
-    .idea_for_million_filling{
-        top: 500px;
+    .arrow1{
+        margin-left: 40%;
     }
-    .footer_shade{
-        top: 1250px;
-    }
-    @media only screen and (max-width: 600px){
-  
+    .arrow2{
+        width: 210px;
+        height: 210px;
+        margin-top: -250px;
+        margin-left: 10%;
+        
     }
 }

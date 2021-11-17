@@ -77,7 +77,39 @@ main{
 
     color: #4C4333;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
+.login_text{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+}
+.register_text{
+    right: 10px;
+    font-size: 26px;
+    line-height: 30px;
+}
+.email_text, .password_text{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 26px;
+}
+.email_field, .password_field{
+    height: 40px;
+    margin-top: 7px;
+}
+.login_button{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin-left: calc(50%-40px);
+    margin-top: 30px;
+    margin-bottom: 5px;
+
+    font-size: 28px;
+    line-height: 30px;
+}
+}
+@media only screen and (max-width: 725px){
     main{
         margin-left: 5%;
         margin-right: 5%;
@@ -105,7 +137,6 @@ main{
     position: relative;
     width: 50%;
     height: 50px;
-    margin-left: 23%;
     margin-top: 30px;
     margin-bottom: 5px;
 

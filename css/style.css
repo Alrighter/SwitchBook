@@ -182,7 +182,7 @@ display: none;
     margin-top: 35px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 725px) {
 .content{
   margin-left: 1%;
   margin-right: 1%;

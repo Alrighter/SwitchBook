@@ -34,7 +34,7 @@
 }   
 @media only screen and (max-width: 1248px){
     .text{
-        margin-top: -6%;
+        
         width: 100%;
     }
     .books_on_homepage{
@@ -42,7 +42,7 @@
         width: 0px;
     }  
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 725px){
     .home_text_title{
         font-weight: 700;
         font-size: 28px;
